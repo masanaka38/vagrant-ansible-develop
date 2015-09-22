@@ -1,0 +1,4 @@
+- name: install git
+  yum: name={{ item }} state=latest
+  with_items:
+    - git

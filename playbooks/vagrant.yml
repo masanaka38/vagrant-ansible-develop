@@ -1,0 +1,9 @@
+- hosts: all
+  sudo: yes
+  vars:
+    - user: "vagrant"
+    - ruby_version: "2.1.2"
+
+  roles:
+    - common
+    - ruby
